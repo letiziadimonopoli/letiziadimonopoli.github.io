@@ -1,4 +1,4 @@
-# ⭐️ Letizia’s Portfolio
+# ⭐️ Letizia’s Portfolio (in progress)
 
 Hi! I’m Letizia and this is my personal portfolio website.
 
@@ -16,8 +16,3 @@ Each project includes a short description and a direct link to the GitHub reposi
 
 * HTML5  
 * CSS3
-
-## 📬 Contact
-
-- [LinkedIn](https://www.linkedin.com/in/letiziadimonopoli)
-- [GitHub](https://github.com/letiziadimonopoli)
