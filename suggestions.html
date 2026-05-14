@@ -71,7 +71,7 @@
 
     h2 {
       font-family: Arial, sans-serif;
-      font-size: 13px;
+      font-size: 18px;
       letter-spacing: 0.24em;
       text-transform: uppercase;
       color: var(--accent-dark);
@@ -209,6 +209,13 @@
         color: var(--muted);
     }
 
+    .section-intro {
+        max-width: 1200px;
+        font-size: 18px;
+        color: var(--muted);
+        margin-bottom: 32px;
+    }
+
     @media (max-width: 800px) {
         .suggestions-grid {
             grid-template-columns: 1fr;
@@ -229,51 +236,67 @@
 
   <main>
   <h1>Suggestions</h1>
+  <p class="section-intro">
+    This is the more personal part of the website. I love all forms of storytelling: from reading to movies, music and theatre.
+    This passion led me to take acting classes at Accademia Litta in Milan (2021 to 2025), and during my exchange program at the University of Maryland, I got cast into a student film.
+</p>
 
   <section>
     <h2>Books</h2>
 
     <div class="suggestions-grid">
       <div class="suggestion-card">
-        <img src="images/book-1.jpg" alt="Book title">
-        <h3>Book title</h3>
-        <p>Author name</p>
+        <img src="suggestions_data/sisyphe.jpg" alt="Book title">
+        <h3>Le Mythe de Sisyphe</h3>
+        <p>Albert Camus</p>
       </div>
 
       <div class="suggestion-card">
-        <img src="images/book-2.jpg" alt="Book title">
-        <h3>Book title</h3>
-        <p>Author name</p>
+        <img src="suggestions_data/lapeste.jpg" alt="Book title">
+        <h3>La Peste</h3>
+        <p>Albert Camus</p>
       </div>
 
       <div class="suggestion-card">
-        <img src="images/book-3.jpg" alt="Book title">
-        <h3>Book title</h3>
-        <p>Author name</p>
+        <img src="suggestions_data/cantoribelli.jpg" alt="Book title">
+        <h3>Il Canto dei Cuori Ribelli</h3>
+        <p>Thrity Umrigar</p>
+      </div>
+
+      <div class="suggestion-card">
+        <img src="suggestions_data/addielarue.jpg" alt="Book title">
+        <h3>The Invisible Life of Addie LaRue</h3>
+        <p>V. E. Schwab</p>
+      </div>
+
+      <div class="suggestion-card">
+        <img src="suggestions_data/parisrestaurant.jpg" alt="Book title">
+        <h3>The Last Restaurant in Paris</h3>
+        <p>Lily Graham</p>
       </div>
     </div>
   </section>
 
   <section>
-    <h2>Films</h2>
+    <h2>Movies</h2>
 
     <div class="suggestions-grid">
       <div class="suggestion-card">
-        <img src="images/film-1.jpg" alt="Film title">
-        <h3>Film title</h3>
-        <p>Director / Year</p>
+        <img src="suggestions_data/lostintranslation.jpg" alt="Film title">
+        <h3>Lost in Translation</h3>
+        <p>Sofia Coppola / 2003</p>
       </div>
 
       <div class="suggestion-card">
-        <img src="images/film-2.jpg" alt="Film title">
-        <h3>Film title</h3>
-        <p>Director / Year</p>
+        <img src="suggestions_data/prideandprejudice.jpg" alt="Film title">
+        <h3>Pride and Prejudice</h3>
+        <p>Joe Wright / 2006</p>
       </div>
 
       <div class="suggestion-card">
-        <img src="images/film-3.jpg" alt="Film title">
-        <h3>Film title</h3>
-        <p>Director / Year</p>
+        <img src="suggestions_data/everythingeverywhere.jpg" alt="Film title">
+        <h3>Everything Everywhere All at Once</h3>
+        <p>Daniel Scheinert, Daniel Kwan / 2022</p>
       </div>
     </div>
   </section>
