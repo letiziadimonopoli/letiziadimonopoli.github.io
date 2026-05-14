@@ -12,7 +12,7 @@ This site contains a curated collection of my projects. I’m particularly inter
 
 Each project includes a short description and a direct link to the GitHub repository.
 
-## 🛠️ Technologies Useed
+## 🛠️ Technologies Used
 
 * HTML5  
 * CSS3
