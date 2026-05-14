@@ -49,25 +49,25 @@
     .nav-links a:hover { color: var(--accent-dark); }
 
     main {
-      max-width: 1180px;
+      max-width: 1200px;
       margin: auto;
       padding: 0 32px;
     }
 
     .hero {
-      min-height: 80vh;
+      min-height: 50vh;
       display: grid;
       grid-template-columns: 1.3fr 0.7fr;
       gap: 60px;
       align-items: center;
-      padding: 80px 0;
+      padding: 20px 0;
     }
 
     h1 {
-      font-size: clamp(40px, 4.5vw, 72px);
+      font-size: clamp(28px, 3.5vw, 48px);
       line-height: 1.05;
       letter-spacing: -0.05em;
-      margin-bottom: 20px;
+      margin-bottom: 16px;
     }
 
     .hero p {
@@ -139,7 +139,7 @@
     }
 
     .about-text {
-      max-width: 1200px;
+      max-width: 1500px;
       font-size: 22px;
       color: var(--muted);
     }
@@ -190,6 +190,17 @@
       fill: currentColor;
     }
 
+    p a {
+      color: #1f3a8a;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      text-decoration-thickness: 1px;
+    }
+
+    p a:hover {
+      color: #000;
+    }
+
     @media (max-width: 900px) {
       h1 { white-space: normal; }
       .hero {
@@ -215,7 +226,7 @@
     <section class="hero">
       <div>
         <h1>Hi, I’m Letizia</h1>
-        <p>I’m a last-year Data Science student at Bocconi University.</p>
+        <p>I'm a Data Science student at Bocconi University, interested in Machine Learning and Language.</p>
         <div class="buttons">
           <a class="button primary" href="files/Letizia_Dimonopoli_CV.pdf" target="_blank">View / Download CV</a>
         </div>
@@ -229,14 +240,31 @@
     <section id="about">
       <h2>About me</h2>
       <div class="about-text">
-        <p>
-          I’m interested in applied machine learning, natural language processing,
-          and quantitative methods for finance.
-        </p>
-        <p>
-          My recent work explores how language models behave in structured decision-making settings,
-          how text can be represented for retrieval, and how predictive models can support real-world economic questions.
-        </p>
+      <p>
+        I am currently pursuing a MSc in <a href="https://www.unibocconi.it/en/programs/master-science/data-science-and-business-analytics" target="_blank">Data Science and Business Analytics</a> 
+        at <a href="https://www.unibocconi.it/en" target="_blank">Bocconi University</a> in Milan, 
+        after graduating in <a href="https://www.unibocconi.it/en/programs/bachelor-science/economics-management-and-computer-science" target="_blank">Economics, Management and Computer Science</a>.
+      </p>
+
+      <p>
+        My interests lie at the intersection of Data Science, Natural Language Processing and Quantitative Methods.
+      </p>
+
+      <p>
+        I am currently a Data Scientist Intern at <a href="https://www.ubs.com/it/en.html" target="_blank">UBS</a> in Zurich, 
+        where I work on researching and evaluating Small Language Models performance for transcript recognition tasks.
+        Previously, I interned as a Software Development Engineer Intern at <a href="https://www.amazon.jobs/en/" target="_blank">Amazon</a> in Luxembourg and 
+        I was a Summer Analyst in the Aladdin Engineering division at <a href="https://www.blackrock.com/it" target="_blank">BlackRock</a> in Edinburgh.
+      </p>
+
+      <p>
+        Throughout my university years, I also collaborated on data-driven projects through <a href="https://www.bsibocconi.com/" target="_blank">Build Sustainable Innovation</a>, 
+        a Bocconi student association, where I later became Head of Technology, leading two teams of 6 members each on real-world industry challenges.
+      </p>
+
+      <p>
+        I will join <a href="https://www.ubs.com/it/en.html" target="_blank">UBS</a> full-time starting from September 2026.
+      </p>
       </div>
     </section>
 
