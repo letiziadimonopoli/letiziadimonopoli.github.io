@@ -1,4 +1,4 @@
-# ⭐️ Letizia’s Portfolio (in progress)
+# ⭐️ Letizia’s Portfolio
 
 Hi! I’m Letizia and this is my personal portfolio website.
 
