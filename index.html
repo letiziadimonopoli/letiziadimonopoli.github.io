@@ -38,14 +38,14 @@
       margin: auto;
       padding: 18px 32px;
       display: flex;
-      justify-content: space-between;
       align-items: center;
+      gap: 40px;
       font-family: Arial, sans-serif;
-      font-size: 14px;
+      font-size: 20px;
     }
 
-    .logo { font-weight: 700; letter-spacing: 0.03em; }
-    .nav-links { display: flex; gap: 22px; color: var(--muted); }
+    .logo { font-weight: 700; letter-spacing: 0.03em; font-size: 20px;}
+    .nav-links { display: flex; gap: 24px; color: var(--muted); }
     .nav-links a:hover { color: var(--accent-dark); }
 
     main {
@@ -55,46 +55,43 @@
     }
 
     .hero {
-      min-height: 84vh;
+      min-height: 80vh;
       display: grid;
-      grid-template-columns: 1.45fr 0.75fr;
-      gap: 70px;
+      grid-template-columns: 1.3fr 0.7fr;
+      gap: 60px;
       align-items: center;
       padding: 80px 0;
     }
 
     h1 {
-      font-size: clamp(56px, 8vw, 112px);
-      line-height: 0.95;
-      letter-spacing: -0.06em;
-      margin-bottom: 28px;
-      white-space: nowrap;
+      font-size: clamp(40px, 4.5vw, 72px);
+      line-height: 1.05;
+      letter-spacing: -0.05em;
+      margin-bottom: 20px;
     }
 
     .hero p {
-      max-width: 760px;
-      font-size: 24px;
+      max-width: 600px;
+      font-size: 20px;
       color: var(--muted);
     }
 
     .buttons {
       display: flex;
-      flex-wrap: wrap;
       gap: 14px;
-      margin-top: 34px;
+      margin-top: 28px;
       font-family: Arial, sans-serif;
     }
 
     .button {
-      padding: 13px 20px;
+      padding: 12px 18px;
       border-radius: 999px;
       border: 1px solid var(--line);
       background: var(--card);
       box-shadow: 0 8px 24px rgba(90, 70, 50, 0.06);
-      transition: 0.2s ease;
       font-size: 14px;
-      font-weight: 700;
-      display: inline-block;
+      font-weight: 600;
+      transition: 0.2s ease;
     }
 
     .button.primary {
@@ -107,7 +104,7 @@
       transform: translateY(-2px);
       box-shadow: 0 12px 30px rgba(90, 70, 50, 0.12);
     }
-
+    
     .portrait-card {
       background: var(--card);
       border: 1px solid var(--line);
@@ -219,7 +216,7 @@
         <h1>Hi, I’m Letizia</h1>
         <p>I’m a last-year Data Science student at Bocconi University.</p>
         <div class="buttons">
-          <a class="button primary" href="Letizia_Dimonopoli_CV.pdf" target="_blank">View / Download CV</a>
+          <a class="button primary" href="files/Letizia_Dimonopoli_CV.pdf" target="_blank">View / Download CV</a>
         </div>
       </div>
 
@@ -258,6 +255,10 @@
         <svg viewBox="0 0 24 24"><path d="M12 13.2 1.5 6.3V18c0 1.1.9 2 2 2h17c1.1 0 2-.9 2-2V6.3L12 13.2Zm0-2.4L22.2 4H1.8L12 10.8Z"/></svg>
       </a>
     </div>
+
+    <p class="footer-text">
+    © 2026 Letizia Dimonopoli | Last update: May 2026
+    </p>
   </footer>
 </body>
 </html>
