@@ -227,6 +227,25 @@
       color: #000;
     }
 
+    .video-section {
+      margin-top: 80px;
+    }
+
+    .video-wrapper {
+      width: 100%;
+      max-width: 900px;
+      margin: 0 auto;
+      border-radius: 24px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(90, 70, 50, 0.08);
+    }
+
+    .video-wrapper iframe {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      border: none;
+    }
+
     @media (max-width: 800px) {
         .suggestions-grid {
             grid-template-columns: 1fr;
@@ -327,10 +346,12 @@
       A moment on stage during our final play at <a href="https://accademialitta.mtmteatro.it/" target="_blank">Accademia Litta</a> in 2023. The clip begins with an intro of the original movie, <a href="https://www.imdb.com/it/title/tt1285243/" target="_blank">Due Partite</a>: our on stage version comes in shortly.
     </p>
 
-    <video controls style="width:100%; max-width:800px; border-radius:20px; display:block; margin: 0 auto;">
-      <source src="suggestions_data/duepartite.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
+    <div class="video-wrapper">
+    <iframe
+      src="https://drive.google.com/file/d/1_YZN_Tdbf3bcJZYxwKk38-sA8mk055gT/preview"
+      allowfullscreen>
+    </iframe>
+  </div>
   </section>
 </main>
 
